@@ -1,5 +1,5 @@
 var sha256 = require("nano-sha256");
-var XMLHttpRequest = window.XMLHttpRequest;
+var XMLHttpRequest = self.XMLHttpRequest;
 var IPFS = require("./nano-ipfs-store");
 
 module.exports = IPFS({
